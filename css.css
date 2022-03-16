@@ -10,7 +10,7 @@
 }
 
 .nav{ height:30px; background:#0033fe;}
-.nav ul li{display:inline;padding:50px; }
+.nav ul li{display:inline;padding:80px; }
 .nav ul li a{text-decoration:none; color:#FFF;}
 .nav ul li a:hover{color:#FF0; text-decoration:underline;}
 .nav ul li a:active{color:#0F3;}
@@ -39,5 +39,14 @@
     padding: 75px;
 }
 .text-center {
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.content1{
+    text-align: center;
+}
+.monanhanoi{
     text-align: center;
 }
