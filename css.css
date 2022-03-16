@@ -4,7 +4,12 @@
 .header{
     width: 100%;
 }
-.nav{width:963px; height:30px; background:#0033fe;}
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.nav{ height:30px; background:#0033fe;}
 .nav ul li{display:inline;padding:50px; }
 .nav ul li a{text-decoration:none; color:#FFF;}
 .nav ul li a:hover{color:#FF0; text-decoration:underline;}
@@ -12,11 +17,14 @@
 .setion{
     display: flex;
 }
+.setion .img {
+    flex: 1;
+}
 .setion img{
+    width: 100%;
     padding: 20px;
 }
 .footer{
-    width:963px; 
     height:30px; 
     background:#0033fe;
     clear:both;
